@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: gray;
+    display: inline-flex;
+    align-content: center;
+}
+
+.primary{
+    display: flex;
+    position: relative;
+    margin: 2.5vw;
+    background-color: red;
+    width: 28vw;
+    height: 28vw;
+    border: solid white 2px;
+    left: 25.5%;
+}
+
+.b1{
+    background-color: orange;
+}
+
+.b1 img{
+    border: solid white 2px;
+    position: absolute;
+    transition: linear all 0.8s;
+    width: 28vw;
+    height: 28vw;
+    left: -2px;
+    top: -2px;
+}
+
+.b1:hover img{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    margin-top: 62%;
+    margin-left: 62%;
+}
+
+.b2 img{
+    border: solid white 2px;
+    position: absolute;
+    transition: linear all 0.6s;
+    width: 28vw;
+    height: 28vw;
+    left: -2px;
+    top: -2px;
+}
+
+.b2:hover img{
+    width: 9vw;
+    height: 9vw;
+    margin-top: 66%;
+    margin-left: 34%;
+}
+
+.secondary{
+    color: white;
+}
+
+.secondary h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 4%;
+    border-bottom: white solid 2px;
+    padding-bottom: 4%;
+    text-shadow: black 1px 1px 10px;
+}
+
+.secondary p{
+    text-align: left;
+    margin: 5% 4%;
+    padding: 3%;
+    font-size: 1.3em;
+    border: lightgray solid 1px;
+}
+
+.b1 div p{
+    background-color: red;
+}
+
+.b2 div p{
+    background-color: orange;
+}
